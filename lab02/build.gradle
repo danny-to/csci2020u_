@@ -14,3 +14,12 @@ task(run, dependsOn: 'classes', type: JavaExec) {
     classpath = sourceSets.main.runtimeClasspath
 }
 
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'commons-validator', 
+            name: 'commons-validator', 
+            version: '1.4.1'
+}

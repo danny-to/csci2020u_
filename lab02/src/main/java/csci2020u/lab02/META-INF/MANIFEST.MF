@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Implementation-Title: Apache Commons CSV
+Implementation-Version: 1.4
+Archiver-Version: Plexus Archiver
+Built-By: ggregory
+Specification-Vendor: The Apache Software Foundation
+Specification-Title: Apache Commons CSV
+Implementation-Vendor-Id: org.apache.commons
+Implementation-Vendor: The Apache Software Foundation
+Created-By: Apache Maven
+Build-Jdk: 1.8.0_91
+Specification-Version: 1.4
+Implementation-URL: http://commons.apache.org/proper/commons-csv/
+
