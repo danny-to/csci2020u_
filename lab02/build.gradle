@@ -3,14 +3,14 @@ sourceCompatibility = 1.7
 version = '1.0'
 jar {
     manifest {
-        attributes  'Main-Class': 'Test',
+        attributes  'Main-Class': 'csci2020u.lab02.CSVDemo',
                     'Implementation-Title': 'Sample-Gradle',
                     'Implementation-Version': version
     }
 }
 
 task(run, dependsOn: 'classes', type: JavaExec) {
-    main = 'Test'
+    main = 'csci2020u.lab02.CSVDemo'
     classpath = sourceSets.main.runtimeClasspath
 }
 
@@ -19,7 +19,7 @@ repositories {
 }
 
 dependencies {
-    compile group: 'commons-validator', 
-            name: 'commons-validator', 
-            version: '1.4.1'
+    compile group: 'org.apache.commons', 
+            name: 'commons-csv', 
+            version: '1.4'
 }
